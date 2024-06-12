@@ -1,13 +1,21 @@
-# This is a very simple program written in python
-# its purpose is just to mess around and learn
+# MAKES TWENTY: Given two integers, 
+# return True if the sum of the integers is 20 
+# or if one of the integers is 20. 
+# If not, return False
 
-# the print statement
-print(5*6)
-print('Hello World')
 
-# Create a list
-my_list = [23,'Boliver', 'Road', 'Campbelltown', 'SA', '6054']
+def makes_twenty(n1,n2):
+    if 20 in (n1,n2):
+        return True
+    
+    if (n1 + n2) == 20:
+        return True
+    
+    else:
+        return False
+    
 
-# print my_list
-print(my_list)
+makes_twenty(10,10)
 
+
+    
