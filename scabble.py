@@ -43,3 +43,13 @@ for player, words in player_to_words.items():
     player_to_points[player] = player_points
 
 print(player_to_points)
+
+# function called play_word() that will take in a 'player' and a 'word', and add that word to the list of words they’ve played
+def play_word(player, word):
+    player_to_words[player].append(word)
+
+
+play_word('Lexi Con', 'ADDED')
+
+print(player_to_words)
+
